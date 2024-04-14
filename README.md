@@ -1,8 +1,27 @@
-# React + Vite
+This is a movie application build using the react concepts like hooks, components, export and import of components and react router dom. It has several pages and we used TMDB API for our application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I also used vite as the frontend tool or substitute of create-react-app owing to its fast executaion and installation.
 
-Currently, two official plugins are available:
+And I also used tailwind css as the core CSS framework for the design of our application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TMDB_API_KEY= af0c3dfefdccc8961936f1858eec48c1
+
+Base URL: https://api.themoviedb.org/3
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=b80d59c33d6d57ed9c7e3713f91c188a&query={movie_name}
